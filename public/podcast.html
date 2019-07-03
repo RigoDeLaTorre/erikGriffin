@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+  <section class="podcast podcast--page">
+    <div class="appContainer">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="nav__link" href="sass.html">Home</a></li>
+                    <li><a class="nav__link" href="podcast.html">Podcast</a></li>
+                    <li><a class="nav__link" href="collapsible.html">Gaming</a></li>
+                    <li><a class="nav__link" href="mobile.html">Tour</a></li>
+                    <li><a class="nav__link" href="collapsible.html">About</a></li>
+                    <li><a class="nav__link" href="mobile.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Home</a></li>
+            <li><a href="badges.html">Podcast</a></li>
+            <li><a href="collapsible.html">Gaming</a></li>
+            <li><a href="mobile.html">Tour</a></li>
+            <li><a href="collapsible.html">About</a></li>
+            <li><a href="mobile.html">Contact</a></li>
+        </ul>
+      <div class="appContainer">
+          <h1 class="podcast__title">Riffin with Griffin</h1>
+          <h1 class="podcast__subTitle">Podcast</h1>
+          <div class="podcast__container">
+              <img class="podcast__img" src="/img/erikPodcast.png" />
+              <div class="podcast__iconContainer">
+                  <a href="https://www.youtube.com/channel/UCI9fEg4ZCx6NsOgDpyzmX1Q" target="_blank"><img class="podcast__icon" src="/img/youtube.svg" /></a>
+                  <a href="https://open.spotify.com/show/0OGCWAlGnoZ2moOs5nPzfA" target="_blank"><img class="podcast__icon" src="/img/spotify.svg" /></a>
+                  <a href="https://podcasts.apple.com/us/podcast/riffin-with-griffin/id1439172001?mt=2" target="_blank"><img class="podcast__icon" src="/img/itunes.png" /></a>
+              </div>
+
+          </div>
+          <div class="podcast__youtube">
+
+              <iframe class="podcast__frame" src="https://www.youtube.com/embed/Vq3uNTAVlq0" width="250" height="250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="podcast__frame" src="https://www.youtube.com/embed/-J1YHtQbkCo" width="250" height="250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="podcast__frame" src="https://www.youtube.com/embed/PPBsB7d9rRo" width="250" height="250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="podcast__frame" src="https://www.youtube.com/embed/gi_0ioZP2Wo" width="250" height="250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <iframe class="podcast__frame" src="https://www.youtube.com/embed/Q5gKSc42J2Y" width="250" height="250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="podcast__frame" src="https://www.youtube.com/embed/LjS5QwyF33w" width="250" height="250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="podcast__frame" src="https://www.youtube.com/embed/dL1Yu0vZXBo" width="250" height="250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="podcast__frame" src="https://www.youtube.com/embed/xeYWfZEXSRg" width="250" height="250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <iframe class="podcast__frame" src="https://www.youtube.com/embed/gukXNH-HFGE" width="250" height="250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="podcast__frame" src="https://www.youtube.com/embed/-1ApH8iU8Oo" width="250" height="250" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div>
+
+          <div class="audioSection">
+            <h4>Can you flow on the Matic Productions beat?</h4>
+            <h4>Email me your best Riffin With Griffin flows !</h4>
+            <audio controls>
+              <source src="http://erikgriffin.com/audio/matic-productions.mp3" type="audio/ogg">
+              <source src="http://erikgriffin.com/audio/matic-productions.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+</audio>
+          </div>
+          <div class="fanMail">
+              <h4 class="fanMail__paragraph">Fan Mail</h4>
+              <h4 class="fanMail__address">RIFFIN WITH GIRFFIN <br/>PO BOX 34399 LA, CA 90034</h4>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+</body>
+
+</html>
