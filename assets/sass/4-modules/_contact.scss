@@ -4,10 +4,12 @@
   &__container {
     display: flex;
     justify-content: space-around;
+    flex-flow: row wrap;
   }
   &__group {
     display: flex;
     align-items: center;
+    margin-bottom: 2rem;
   }
   &__imgContainer {
   }
@@ -17,5 +19,15 @@
   }
   &__details {
     line-height: 1.5;
+  }
+  &__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: #01070e;
+  }
+  &__materializeIcon {
+    color: #092b53;
+    margin-right: 10px;
   }
 }

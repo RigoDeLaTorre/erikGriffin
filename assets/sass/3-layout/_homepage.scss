@@ -15,6 +15,10 @@
   background-repeat: no-repeat;
   color: white;
   height: 100vh;
+  @media only screen and (max-width: $breakpoint-mobile) {
+    background-image: url(/img/erikBackgroundMobile.jpg);
+    background-position: center left;
+  }
   .header {
     display: flex;
     flex-direction: column;
@@ -27,6 +31,15 @@
       color: orange;
       position: relative;
       top: 35%;
+      @media only screen and (max-width: $breakpoint-mobile) {
+        font-size: 4.5rem;
+        font-family: "Modak", cursive;
+        color: orange;
+        position: relative;
+        top: 39%;
+        left: 5%;
+        max-width: 200px;
+      }
     }
   }
   .button {
@@ -57,6 +70,10 @@
     padding: 45px;
     box-shadow: 0px 1px 5px 2px rgba(255, 255, 255, 0.13),
       0 4px 18px 0 rgba(0, 0, 0, 0.19);
+    @media only screen and (max-width: $breakpoint-mobile) {
+      left: -19px;
+      top: 53%;
+    }
 
     &__title {
       letter-spacing: 5px;

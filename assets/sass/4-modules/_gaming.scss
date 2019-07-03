@@ -32,6 +32,7 @@
     text-transform: uppercase;
     margin: 2rem 0;
     justify-content: center;
+    flex-flow: row wrap;
   }
   &__li {
     padding: 7px;
