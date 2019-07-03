@@ -1,0 +1,49 @@
+.gaming {
+  padding: 5rem;
+  background: #fff;
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  &__title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: inline-block;
+    border-bottom: 1px solid #001433;
+    padding-bottom: 5px;
+    margin-bottom: 2rem;
+    letter-spacing: 5px;
+
+    color: #403d3d;
+  }
+  &__description {
+    line-height: 2.7;
+    margin-right: 5rem;
+  }
+  &__icon {
+    height: 50px;
+    margin-left: 2rem;
+  }
+  &__streamingTitle {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    justify-content: center;
+  }
+  &__li {
+    padding: 7px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #182335;
+    list-style-type: circle !important;
+    &--span {
+      margin-left: 2rem;
+      color: orange;
+      font-size: 0.8rem;
+    }
+  }
+}

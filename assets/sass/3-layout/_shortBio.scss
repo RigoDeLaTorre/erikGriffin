@@ -1,0 +1,20 @@
+.shortBio {
+  padding: 10rem 0;
+  background: white;
+  .bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    &__img {
+      max-width: 300px;
+      margin-right: 5rem;
+      border-radius: 5px;
+    }
+    &__paragraph {
+      max-width: 500px;
+      line-height: 1.7;
+      letter-spacing: 1px;
+    }
+  }
+}

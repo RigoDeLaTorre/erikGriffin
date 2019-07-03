@@ -1,0 +1,55 @@
+.tourDates {
+  background: #001433;
+  color: white;
+  padding: 5rem 0;
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    display: inline;
+    padding: 10px 0;
+    margin-bottom: 4rem;
+    display: block;
+    text-align: center;
+  }
+  &__group {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #0c2d5f;
+    align-items: center;
+    &:hover {
+      background: #0c2d5f;
+    }
+  }
+  &__date {
+    font-size: 2rem;
+    color: #bdc7d5;
+    font-weight: 700;
+  }
+  &__month {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #919dae;
+  }
+  &__location {
+    letter-spacing: 2px;
+    color: #919dae;
+  }
+  &__city {
+    color: orange;
+    font-size: 1.2rem;
+  }
+  &__button {
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.52),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background: orange;
+    }
+  }
+}
