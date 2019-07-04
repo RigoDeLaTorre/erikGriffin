@@ -71,8 +71,10 @@
     box-shadow: 0px 1px 5px 2px rgba(255, 255, 255, 0.13),
       0 4px 18px 0 rgba(0, 0, 0, 0.19);
     @media only screen and (max-width: $breakpoint-mobile) {
-      left: -19px;
-      top: 53%;
+      left: 0;
+      top: 62%;
+      padding: 0 20px;
+      background: #000;
     }
 
     &__title {
@@ -84,6 +86,11 @@
       font-size: 1.7rem;
       color: black;
       text-align: center;
+      @media only screen and (max-width: $breakpoint-mobile) {
+        background: #000;
+        color: #cfe6ec;
+        border-bottom: 1px solid #b0d7eb;
+      }
     }
     &__group {
       margin-bottom: 1rem;
