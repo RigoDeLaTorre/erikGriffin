@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+  <section class="wow fadeIn slow aboutSection aboutSection--page">
+    <div class="appContainer">
+      <nav>
+          <div class="nav-wrapper">
+              <a href="#!" class="brand-logo"></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a class="nav__link" href="index.html">Home</a></li>
+                  <li><a class="nav__link" href="podcast.html">Podcast</a></li>
+                  <li><a class="nav__link" href="gaming.html">Gaming</a></li>
+                  <li><a class="nav__link" href="tour.html">Tour</a></li>
+                  <li><a class="nav__link nav__link--selected" href="about.html">About</a></li>
+                  <li><a class="nav__link" href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="podcast.html">Podcast</a></li>
+          <li><a href="gaming.html">Gaming</a></li>
+          <li><a href="tour.html">Tour</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <h1 class="sectionTitle sectionTitle--page">About</h1>
+      <div class="aboutSection__container">
+        <div class="aboutSection__group">
+          <div class="slider">
+    <ul class="slides">
+      <li>
+        <div class="caption__insideImageContainer">
+          <img class="caption__insideImage" src="/img/movieMurderMysteryPoster.png">
+          <div>
+            <h3 class="caption__title">Movie: Murder Mystery</h3>
+            <h5 class="caption__subTitle">Character: Jimmy Stern</h5>
+          </div>
+        </div>
+        <img src="/img/murderMysteryJimmyStern.jpg">
+      </li>
+
+      <li>
+        <div class="caption__insideImageContainer">
+          <img class="caption__insideImage" src="/img/workaholicsPoster.jpg">
+          <div>
+            <h3 class="caption__title">TV: Workaholics</h3>
+            <h5 class="caption__subTitle">Character: Montez Walker</h5>
+          </div>
+        </div>
+        <img src="/img/workaholics.jpg">
+      </li>
+
+      <li>
+        <div class="caption__insideImageContainer">
+          <img class="caption__insideImage" src="/img/imDyingUpHerePoster.jpg">
+          <div>
+            <h3 class="caption__title">TV: I'm Dying Up Here</h3>
+            <h5 class="caption__subTitle">Character: Ralph Carnegie</h5>
+          </div>
+        </div>
+        <img src="/img/imDyingUpHere.jpg">
+      </li>
+
+    </ul>
+  </div>
+        </div>
+        <div class="aboutSection__group">
+          <p class="aboutSection__paragraph">Griffin will next star as a series regular in Showtime’s dark-comedy series I’M DYING UP HERE that will premiere on June 4th. Based on the book by former L.A. Times writer William Knoedelseder, the fictionalized series is set in the celebrated yet infamous L.A. stand-up comedy scene of the '70s, and co-stars Melissa Leo, Al Madrigal and Ari Graynor, under executive producer Jim Carrey. Griffin’s first hour-long comedy special, THE UGLY TRUTH, will also air on July 7th on Showtime.</p>
+          <br />
+          <p class="aboutSection__paragraph">Previous television credits include a recurring role on the Starz! comedy BLUNT TALK with Patrick Stewart, Netflix’s ONE DAY AT A TIME, FX’s YOU’RE THE WORST, Fox’s BOB’S BURGERS, ARRESTED DEVELOPMENT and Nickelodeon’s HARVEY BREAKS. On the big screen, Griffin can be seen in Jake Szymanski’s MIKE & DAVE NEED WEDDING DATES and Kerem Sanga’s FIRST GIRL I LOVED.</p>
+          <br />
+          <p class="aboutSection__paragraph">Distinguished as a nationally touring comedian who headlines comedy clubs and colleges nearly every weekend, Griffin’s comedy is immortalized on his debut comedy album, Technical Foul: Volume One, and his Comedy Central Presents half-hour stand-up special.</p>
+          <br />
+          <p class="aboutSection__paragraph">Griffin started his career in comedy after making the decision in 2003 to quit his job and pursue comedy full-time. He first gained national exposure in Comedy Central’s LIVE AT GOTHAM, NBC’s LAST COMIC DRIVING, Showtime’s COMICS WITHOUT BORDERS, nationally syndicated COMICS UNLEASHED and performing on the ALMA Award-nominated PAYASO COMEDY SLAM on Showtime and Comedy Central networks.</p>
+          <br />
+          <p class="aboutSection__paragraph">Griffin is represented by CAA and ArtistFirst.</p>
+        </div>
+        <div>
+
+              </div>
+
+
+
+
+  </section>
+
+
+
+  <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems);
+      });
+      document.addEventListener('DOMContentLoaded', function() {
+    var sliderElems = document.querySelectorAll('.slider');
+    var sliderInstance = M.Slider.init(sliderElems);
+  });
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+      new WOW().init()
+  </script>
+</body>
+
+</html>

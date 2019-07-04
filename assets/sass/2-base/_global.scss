@@ -25,6 +25,7 @@ body {
   text-transform: capitalize;
   position: relative;
   height: 100%;
+  padding: 0 1rem;
 }
 
 nav,
@@ -45,4 +46,7 @@ nav,
   margin-bottom: 4rem;
   display: block;
   text-align: center;
+  &--page {
+    padding-top: 10rem;
+  }
 }

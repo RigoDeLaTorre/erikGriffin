@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+  <section class="wow fadeIn slow gaming gaming--page">
+      <div class="appContainer">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="nav__link" href="index.html">Home</a></li>
+                    <li><a class="nav__link" href="podcast.html">Podcast</a></li>
+                    <li><a class="nav__link nav__link--selected" href="gaming.html">Gaming</a></li>
+                    <li><a class="nav__link" href="tour.html">Tour</a></li>
+                    <li><a class="nav__link" href="about.html">About</a></li>
+                    <li><a class="nav__link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="podcast.html">Podcast</a></li>
+            <li><a href="gaming.html">Gaming</a></li>
+            <li><a href="tour.html">Tour</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+          <h1 class="sectionTitle sectionTitle--page">Gaming</h1>
+          <div class="gaming__container">
+              <div class="gaming__description">
+                  <h2 class="gaming__title">Stream Team</h2>
+                  <ul>
+                      <li class="gaming__li">Erik Griffin<span class="gaming__li--span">Comedian</span></li>
+                      <li class="wow fadeInLeft delay-500ms slow gaming__li">Frank Castillo<span class="gaming__li--span">Comedian</span></li>
+                      </li>
+                      <li class="wow fadeInLeft delay-600ms slow gaming__li">Steven Lee<span class="gaming__li--span">Musician / Podcaster</span></li>
+                      </li>
+                      <li class="wow fadeInLeft delay-700ms slow gaming__li">Erik "The Phoenix" Koch<span class="gaming__li--span">UFC</span></li>
+                      </li>
+                      <li class="wow fadeInLeft delay-800ms slow gaming__li">Craig Efros<span class="gaming__li--span">Resident Nerd</span></li>
+                      </li>
+                  </ul>
+
+              </div>
+
+              <iframe src="https://www.youtube.com/embed/5GFBEq9OGwE" width="600" height="400" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div>
+          <div class="gaming__streamingContainer">
+              <h4 class="gaming__streamingTitle">Streaming on</h4>
+              <a href="https://www.youtube.com/channel/UCI9fEg4ZCx6NsOgDpyzmX1Q" target="_blank"><img class="gaming__icon" src="/img/youtube.svg" /></a>
+              <a href="https://www.twitch.tv/worstfireteamever" target="_blank"><img class="gaming__icon" src="/img/twitch.png" /></a>
+          </div>
+      </div>
+  </section>
+
+
+  <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems);
+      });
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+      new WOW().init()
+  </script>
+</body>
+
+</html>

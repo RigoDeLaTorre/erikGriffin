@@ -1,6 +1,11 @@
 .gaming {
-  padding: 5rem;
+  padding: 5rem 0;
   background: #fff;
+  &--page {
+    padding: 0;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+  }
   &__container {
     display: flex;
     justify-content: center;
@@ -20,10 +25,18 @@
   &__description {
     line-height: 2.7;
     margin-right: 5rem;
+    @media only screen and (max-width: $breakpoint-mobile) {
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
   }
   &__icon {
     height: 50px;
     margin-left: 2rem;
+    cursor: pointer;
+  }
+  &__streamingContainer {
+    text-align: center;
   }
   &__streamingTitle {
     display: flex;
@@ -34,6 +47,7 @@
     justify-content: center;
     flex-flow: row wrap;
   }
+
   &__li {
     padding: 7px;
     text-transform: uppercase;
@@ -41,10 +55,17 @@
     font-weight: 500;
     color: #182335;
     list-style-type: circle !important;
+    @media only screen and (max-width: $breakpoint-mobile) {
+      padding: 0;
+      font-size: 0.9rem;
+    }
     &--span {
       margin-left: 2rem;
       color: orange;
       font-size: 0.8rem;
+      @media only screen and (max-width: $breakpoint-mobile) {
+        margin-left: 0.5rem;
+      }
     }
   }
 }

@@ -12,34 +12,34 @@
 </head>
 
 <body>
-  <section class="podcast podcast--page">
+  <section class="wow fadeIn slow podcast podcast--page">
     <div class="appContainer">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a class="nav__link" href="sass.html">Home</a></li>
-                    <li><a class="nav__link" href="podcast.html">Podcast</a></li>
-                    <li><a class="nav__link" href="collapsible.html">Gaming</a></li>
-                    <li><a class="nav__link" href="mobile.html">Tour</a></li>
-                    <li><a class="nav__link" href="collapsible.html">About</a></li>
-                    <li><a class="nav__link" href="mobile.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+          <div class="nav-wrapper">
+              <a href="#!" class="brand-logo"></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a class="nav__link" href="index.html">Home</a></li>
+                  <li><a class="nav__link nav__link--selected" href="podcast.html">Podcast</a></li>
+                  <li><a class="nav__link" href="gaming.html">Gaming</a></li>
+                  <li><a class="nav__link" href="tour.html">Tour</a></li>
+                  <li><a class="nav__link" href="about.html">About</a></li>
+                  <li><a class="nav__link" href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
 
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Home</a></li>
-            <li><a href="badges.html">Podcast</a></li>
-            <li><a href="collapsible.html">Gaming</a></li>
-            <li><a href="mobile.html">Tour</a></li>
-            <li><a href="collapsible.html">About</a></li>
-            <li><a href="mobile.html">Contact</a></li>
-        </ul>
-      <div class="appContainer">
-          <h1 class="podcast__title">Riffin with Griffin</h1>
-          <h1 class="podcast__subTitle">Podcast</h1>
+      <ul class="sidenav" id="mobile-demo">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="podcast.html">Podcast</a></li>
+          <li><a href="gaming.html">Gaming</a></li>
+          <li><a href="tour.html">Tour</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+          <h1 class="sectionTitle sectionTitle--page">Riffin with Griffin</h1>
+
           <div class="podcast__container">
               <img class="podcast__img" src="/img/erikPodcast.png" />
               <div class="podcast__iconContainer">
@@ -67,30 +67,36 @@
           </div>
 
           <div class="audioSection">
-            <h4>Can you flow on the Matic Productions beat?</h4>
-            <h4>Email me your best Riffin With Griffin flows !</h4>
+            <h4 class="audioSection__info">Can you flow on the Matic Productions beat?</h4>
+            <h4><a href="mailto:erik@erikgriffin.com">Email me</a> your best Riffin With Griffin flows !</h4>
             <audio controls>
               <source src="http://erikgriffin.com/audio/matic-productions.mp3" type="audio/ogg">
               <source src="http://erikgriffin.com/audio/matic-productions.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
-</audio>
+           </audio>
           </div>
           <div class="fanMail">
-              <h4 class="fanMail__paragraph">Fan Mail</h4>
-              <h4 class="fanMail__address">RIFFIN WITH GIRFFIN <br/>PO BOX 34399 LA, CA 90034</h4>
+            <h4 class="fanMail__paragraph">Fan Mail</h4>
+            <h4 class="fanMail__address">RIFFIN WITH GIRFFIN</h4>
+            <h4>PO BOX 34399</h4>
+            <h4>Los Angeles, CA 90034</h4>
           </div>
-      </div>
+
     </div>
   </section>
 
 
 
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems);
-        });
-    </script>
+  <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems);
+      });
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+      new WOW().init()
+  </script>
 </body>
 
 </html>

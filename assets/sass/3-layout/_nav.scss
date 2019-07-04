@@ -33,10 +33,10 @@ nav {
       &:hover {
         color: #dfab4c;
       }
-    }
-    &__selected {
-      color: #dfab4c;
-      border-bottom: 1px solid;
+      &--selected {
+        color: #dfab4c;
+        border-bottom: 1px solid;
+      }
     }
   }
 }

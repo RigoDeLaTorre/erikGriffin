@@ -60,15 +60,36 @@
     top: 48%;
     right: 27%;
     justify-content: space-between;
+    @media only screen and (max-width: $breakpoint-desktop) {
+      right: 22%;
+    }
+    @media only screen and (max-width: $breakpoint-tablet) {
+      right: 13%;
+      top: 50%;
+    }
+    @media only screen and (max-width: $breakpoint-mobile) {
+      right: 0;
+      top: 50%;
+    }
   }
   &__icon {
     width: 50px;
     margin-right: 1rem;
     cursor: pointer;
+    @media only screen and (max-width: $breakpoint-tablet) {
+      width: 40px;
+    }
+    @media only screen and (max-width: $breakpoint-mobile) {
+      width: 30px;
+    }
   }
 
   .fanMail {
     &__paragraph {
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
     }
     &__address {
     }
@@ -76,5 +97,13 @@
   //not the seciton, THE PAGE
   .audioSection {
     margin-bottom: 2rem;
+    background: #435781;
+    padding: 20px;
+    &__info {
+      color: orange;
+      font-weight: 500;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
   }
 }
