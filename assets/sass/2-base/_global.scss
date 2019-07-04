@@ -50,3 +50,11 @@ nav,
     padding-top: 10rem;
   }
 }
+.sidenav {
+  background: #01070e;
+  li {
+    > a {
+      color: #fff !important;
+    }
+  }
+}
